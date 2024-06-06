@@ -4,21 +4,19 @@ import java.util.Scanner;
 public class IfElse {
 	public static void main(String[]args) {
 		Scanner obj=new Scanner(System.in);
-		int a ;int b;int c;
-		System.out.print("Enter the value a : ");
-		a=obj.nextInt();
-		System.out.print("Enter the value b : ");
-		b=obj.nextInt();
-		System.out.print("Enter the value c : ");
-		c=obj.nextInt();
-		if (a>b & a>c) {
-			System.err.println("a is Greater");
+		String color ;String size;
+		System.out.print("Enter your t shirt size : ");
+		size=obj.next();
+		System.out.print("Enter the t-shirt color : ");
+		color=obj.next();
+		if (color=="Black") {
+			System.err.println("Here is your T-Shirt");
 		}
-		else if(b>c){
-			System.err.println("b is Greater");
+		else if(size=="xl"){
+			System.err.println("Here is your T-Shirt");
 		}
 		else {
-			System.err.println("c is Greater");
+			System.err.println("No T-shirt Available");
 		}
 		obj.close();
 	}

@@ -5,11 +5,11 @@ public class TShirt {
 		char size ;
 		char color;
 		Scanner obj=new Scanner(System.in);
-		System.out.println("Enter Your T-Shirt Color : ");
+		System.out.print("Enter Your T-Shirt Color : ");
 		color=obj.next().charAt(0);
 		System.out.println(color);
 		
-		System.out.println("Enter your T-shirt Size : ");
+		System.out.print("Enter yourl T-shirt Size : ");
 		size=obj.next().charAt(0);
 		System.out.println(size);
 		if (size=='x' && color=='b')

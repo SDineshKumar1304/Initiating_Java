@@ -8,7 +8,8 @@ public class Division {
 		System.out.println('a'/'a');
 		// System.out.println("dj"/7); compilation error
 		// System.out.println(true/true); compilation error
-		System.out.println(30/0);
+		   System.out.println(30.0/0.0); infinity
+	        System.out.println(30/0);
 		/* Exception in thread "main" java.lang.ArithmeticException: / by zero
 		at Test/Testjava.demo.Division.main(Division.java:11)*/
 		

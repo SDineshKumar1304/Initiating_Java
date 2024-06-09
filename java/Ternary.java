@@ -17,11 +17,11 @@ public class Ternary {
 		// 
 		
 		
-		int res6 = (10+10+12==(10+10+12)? ((10+11!=10+11)? 10:11):6);
+		int res6 = (10+10+12==(10+10+12)? ((10+11==10+11)? 10:11):6);
 		/*
 		 * first  checks (10+10+12)!=(10+10+12) if it false returns 6
-		 * if (10+10+12)==(10+10+12) if it is true directly return 10
-		 * if (10+10+12)==(10+10+12) true and checks (10+11!=10+11) returns 11
+		 * if (10+10+12)==(10+10+12) if it is and checks (10+11!=10+11 true directly return 10
+		 * if (10+10+12)==(10+10+12) true and checks (10+11!=10+11) false returns 11
 		 * 
 		 */
 

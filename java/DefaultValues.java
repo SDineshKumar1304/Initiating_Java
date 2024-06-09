@@ -8,8 +8,10 @@ class DefaultValues{
 	static double f;
 	static char g;
 	static boolean h;
+
+	// mention  static outside the main block to get the default values of the datatypes 
 	public static void main(String []args) {
-		
+		// main block  is already  in  static
 		System.err.println(a);
 		System.err.println(b);
 		System.err.println(c);

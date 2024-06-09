@@ -35,7 +35,7 @@ public class Operator {
 		System.out.println("Sample Integer Character concatenation :"+(2+'D'));
 		// Output : Sample Integer Character concatenation :70 Returns Ascii Values !!
 		
-		// System.out.println("Boolean and String Concatenation : "+("430"+true));
+		System.out.println("Boolean and String Concatenation : "+("430"+true));
 		// Output : Sample Boolean String concatenation : 430true !!
 
 		// System.out.println("Boolean and Character Concatenation : "+('4'+true));

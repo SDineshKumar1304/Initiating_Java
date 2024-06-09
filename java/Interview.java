@@ -3,12 +3,12 @@ public class Interview {
     //  we cannot put a number alone instead of args 
      {
         System.out.print();// cant run with the empty data
-        System.out.println();// can be run with the empty dataec
+        System.out.println();// can be run with the empty data
     }
     
 }
 
-// if we run this code we get one compilation error and not output 🤓
+// if we run this code we get one compilation error for print() and not output 🤓 for println()
 
 /* """
     This is a multiline comment

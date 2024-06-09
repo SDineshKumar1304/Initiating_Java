@@ -8,9 +8,9 @@
 		 * example for Subraction : 3-2 = 1
 		 * * performs multiplication
 		 * example for multiplication : 2*3 = 6
-		 * / performs Division
+		 * / performs Division  : 1234/10 = 123 , eliminats the last number 
 		 * example for division : 12/2 = 6
-		 * % it is used to  eliminate the last number and also used to  get the reminder from the number
+		 * % it is used to get the reminder from the number
 		 * example for modulus: 12345 % 10 = 1234 
 		 * */
 

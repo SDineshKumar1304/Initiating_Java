@@ -7,7 +7,12 @@ public class Interview3 {
 		// byte c= a+b;
 		//can't return byte it returns int		 
 		byte c = a+b; //CTE
-		//byte c = (byte) (a+b); we use narrowing 
+		//byte c = (byte) (a+b);
 		System.out.println(c);
+		System.out.println("hell0"+10+20);//left to right
+		System.out.println(10+20+"Hell0");// left to  right
+		//hell01020
+		//30Hellp
+		//System.out.println(true+false);//error
 	}
 }

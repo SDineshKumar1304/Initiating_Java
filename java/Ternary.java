@@ -31,5 +31,6 @@ public class Ternary {
 		System.out.println(res4);
 		System.out.println(res5);
 		System.out.println(res6);
+		
 	}
 }

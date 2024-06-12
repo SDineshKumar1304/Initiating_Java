@@ -1,16 +1,35 @@
+package DineshNew;
+import java.util.Scanner;
+
+//********************** Interview **************************// 
 public class Interview {
-    public static void main(String[] f5)// instead of args u can add ur name or anything  even a letter .
-    //  we cannot put a number alone instead of args 
-     {
-        System.out.print();// cant run with the empty data
-        System.out.println();// can be run with the empty data
-    }
-    
+	static Scanner obj = new Scanner(System.in);
+	
+	
+	//*********************Byte Increment and Decrement*************************//
+	public static void main(String[] args) {
+		byte a = 127;
+//		long c =(a>127)?(long)a:a;
+		byte b=++a;
+//		System.out.println(c);
+
+		System.out.println("b value : "+b);	
+		
+//		System.out.println((a>127)?(long)a:a);
+		System.out.println("Incremented Value in Byte a :"+a);
+		System.out.println("Incremented Value in Byte a :"+a++);
+		//Here a becomes -127
+		System.out.println("Both (Post) Increment and Decrement Value for Byte : "+"Post Incremented Value "+ a++ +" , " +"Post Decremented Value " + a--);
+		System.out.println("Finally a Value is : "+a);
+		TypeCast();
+	}
+	
+	//****************************Byte TypeCasting********************************//
+	public static void TypeCast() {
+		System.out.print("Enter the double Value :");
+		double a=obj.nextDouble();
+		byte b = (byte)a;
+		System.out.println("Converted Byte Value from Double : "+b);
+	}
+
 }
-
-// if we run this code we get one compilation error for print() and not output 🤓 for println()
-
-/* """
-    This is a multiline comment
-   """
-*/

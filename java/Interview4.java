@@ -13,7 +13,7 @@ public class Interview4 {
 	
 	int demo(int a) {
 		System.out.println(a++);
-		return a;
+		return a++;
 		
 	}
 }

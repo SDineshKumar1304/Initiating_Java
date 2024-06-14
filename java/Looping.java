@@ -6,13 +6,14 @@ class Looping{
 		int a;
 		System.out.print("Enter the value a : ");
 		a=obj.nextInt();
-		for (int i=1;i<=a;i++) // outer loop
-		{ // i == j (m = n) (i = a,j = a)
-			for (int j =1 ; j<=i;j++) // inner loop
-			{
-			System.out.print(" *");
-			}
+		for (int i=1;i<=a;i++) 
+		{ 
+				System.out.print("*"+",");
+		}
 		System.out.println();
+		for (int i=1;i<=a;i++) 
+		{ 
+				System.out.print("*"+",");
 		}
 		obj.close();
     }

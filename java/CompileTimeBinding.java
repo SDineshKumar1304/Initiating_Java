@@ -3,7 +3,7 @@ package DineshNew;
 //***********************Compile Time Binding***************************
 
 // The Process of Binding the Method call Statement with a method 
-//Definition at the compile time by the compiler by analysing actual and formal arguments
+//Definition at the compile time by the compiler by analzing actual and formal arguments
 
 public class CompileTimeBinding {
 	public static int Bind(int a) {

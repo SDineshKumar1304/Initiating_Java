@@ -35,20 +35,43 @@ public class Task1 {
 				System.out.print(i+",");
 			}
 	  }
+	   public static void UppertoLowerAscii() {
+		   for (char i = 65 ; i <=90;i++) {
+			   System.out.print((char)(i+32));
+		   }
+	   }
+	   public static void LowerToAscii() {
+		   for (char i = 97 ; i <=122;i++) {
+			   System.out.print((char)(i-32));
+		   }
+	   }
+	  
 	  
 	public static void main(String[] args) {
-		System.err.println("Reversed Numbers from 0 to 10");
+		System.err.print("Reversed Numbers from 0 to 10 : ");
 		Reverse();
 		System.out.println();
-		System.err.println("Lower case Alphabet Reverse : ");
+		
+		System.err.print("Lower case Alphabet Reverse : ");
 		AlphaReverse();
 		System.out.println();
-		System.err.println("Upper Case Alphaber Reverse :");
+		
+		System.err.print("Upper Case Alphaber Reverse : ");
 		Alphabets_reverse();
 		System.out.println();
-		System.err.println("Number to char conversion :");
+		
+		System.err.print("Number to char conversion : ");
 		NumberToChar();
 		System.out.println();
+		
+		System.err.print("Upper to Lower Case Conversion : ");
+		UppertoLowerAscii();
+		System.out.println();
+		
+		System.err.print("Lower to Ascii Conversion : ");
+		LowerToAscii();
+		System.out.println((char)35);
+
 		
 	}	
 }

@@ -2,12 +2,41 @@ package DineshNew;
 import java.util.Scanner;
 public class Task2 {
 	static Scanner obj = new Scanner(System.in);
+	
+	//******************Basic Square Pattern******************************
+	
+	 public static void SquarePattern() {
+		 Scanner obj = new Scanner(System.in);
+			int a;
+			System.out.print("Enter the value a : ");
+			a=obj.nextInt();
+			for (int i=1;i<=a;i++) {
+				for (int j=1;j<=a;j++){
+					
+					 System.out.print((i==1||j==a||j==1||i==a) ? "* ":"  ");
+//					if (i==1||j==a||j==1||i==a) {
+//						{
+//							System.out.print("* ");
+//						}
+//					}
+//					else {
+//						System.out.print("  ");
+//					}
+				}
+				
+			System.out.println();
+	 }
+}
+	
+	
+	
     //*************************Inverted Upper Right Triangle *********************************
 
     public static void UpperTrianglePattern()
     {
     	int a;
 		// Printing the message for User Understandings
+    	
 	    System.out.print("Enter your Number :");
 	    a = obj.nextInt();// input is Stored
 	   
@@ -15,7 +44,7 @@ public class Task2 {
 	    {
 	      for (int j = 1; j <= i; j++) // initializing j = 1   if a= 5 = i  so from j starts from  1 and includes 5
 	      {
-	        if (i == a || j == 1 || j == i)// Checking condition  for deciding to print * or " "
+	        if (i == a || j == 1 || j == i )// Checking condition  for deciding to print * or " "
 	        	// if any one Condition Satisfies print's "* "
 	        	
 	        { 
@@ -74,5 +103,6 @@ public class Task2 {
 		UpperTrianglePattern();
 	    DiagonalPattern();
 	    DiagonalPatternRL();
+	    SquarePattern();
 	    }
 	}

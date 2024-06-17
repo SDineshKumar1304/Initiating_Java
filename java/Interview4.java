@@ -1,19 +1,10 @@
-package DineshNew;
+package Testjava.demo;
 
 public class Interview4 {
-	public static void main(String[] args) {
-		System.out.println("START");
-		int b=9;
-		Interview4 obj = new Interview4();
-		
-		b=obj.demo(b);
-		System.out.println(b);
-		System.out.println("STOP");
-	}
-	
-	int demo(int a) {
-		System.out.println(a++);
-		return a++;
-		
-	}
+   public static void main(String[] args) {
+	int a= 10;
+	int b=a++;
+	System.out.println(b);
+	System.out.print(b);
+}
 }

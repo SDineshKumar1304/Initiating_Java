@@ -23,7 +23,7 @@ public class LogicalOperator {
 		//System.out.println(23 && 23); don't work without comparing 
 		//System.out.println(a && b);
 		//System.out.println(!(12+2)&&(12+2));//logical error
-		System.out.println(!(10==10)&&(11==10));
+		//System.out.println(!(10==10)&&(11==10));
 		
 	}
 

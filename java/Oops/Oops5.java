@@ -1,15 +1,15 @@
 package DineshNew;
 
-
-class Class{
+// one object is created with different variables
+class Book{
 	
 }
 
-public class Oops3 {
+public class Oops5 {
 		public static void main(String[] args) {
-			Class a = new Class();
-			Class b = new Class();
-			Class c = new Class();
+			Book a = new Book();
+			Book b = a;
+			Book c = b;
 			System.out.println(a);
 			System.out.println(b);
 			System.out.println(c);
@@ -17,5 +17,6 @@ public class Oops3 {
 			System.out.println(a==b);
 			System.out.println(a!=b);
 			System.out.println(a==c);
+			System.out.println(c==a);
 		}
 }
